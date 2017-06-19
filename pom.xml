@@ -15,7 +15,15 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>rest_test.Application</start-class>
 	</properties>
-
+	<resources>
+	<resource>
+	    <directory>src/main/java/gui</directory>
+	    <filtering>true</filtering>
+	    <excludes>
+		<exclude>**/*.java</exclude>
+	    </excludes>
+	</resource>
+    </resources>
 	<repositories>
 		<repository>
 			<id>spring-releases</id>
@@ -124,6 +132,7 @@
 						<exclude>gui/app/UtilMethods.java</exclude>
 						<exclude>gui/map/DriverMap.java</exclude>
 						<exclude>gui/map/PmMap.java</exclude>
+						<exclude>gui/app/SaveDetailsButton.java</exclude>
 					</excludes>
 				</configuration>
 			</plugin>
