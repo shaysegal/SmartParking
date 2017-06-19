@@ -101,7 +101,7 @@
 		<dependency>
 		    <groupId>org.wildfly.swarm</groupId>
 		    <artifactId>javafx</artifactId>
-		    <version>2016.10.0</version>
+		    <version>2017.1</version>
 		</dependency>
 	</dependencies>
 
