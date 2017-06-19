@@ -15,15 +15,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>rest_test.Application</start-class>
 	</properties>
-	<resources>
-	<resource>
-	    <directory>src/main/java/gui</directory>
-	    <filtering>true</filtering>
-	    <excludes>
-		<exclude>**/*.java</exclude>
-	    </excludes>
-	</resource>
-    </resources>
 	<repositories>
 		<repository>
 			<id>spring-releases</id>
@@ -115,6 +106,15 @@
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>
+		<resources>
+			<resource>
+			    <directory>src/main/java/gui</directory>
+			    <filtering>true</filtering>
+			    <excludes>
+				<exclude>**/*.java</exclude>
+			    </excludes>
+			</resource>
+		    </resources>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
