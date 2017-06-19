@@ -107,7 +107,7 @@
 	<build>
 		<resources>
 			<resource>
-			    <directory>main/java/gui</directory>
+			    <directory>src/main/java/gui</directory>
 			    <filtering>true</filtering>
 			    <excludes>
 				<exclude>**/*.java</exclude>
