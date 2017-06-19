@@ -98,7 +98,11 @@
 			<artifactId>jfoenix</artifactId>
 			<version>1.0.0</version>
 		</dependency>
-
+		<dependency>
+		    <groupId>org.wildfly.swarm</groupId>
+		    <artifactId>javafx</artifactId>
+		    <version>2016.10.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
