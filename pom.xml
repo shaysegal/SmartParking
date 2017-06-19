@@ -108,7 +108,7 @@
 		<sourceDirectory>src</sourceDirectory>
 		<resources>
 			<resource>
-			    <directory>src/main/java/gui</directory>
+			    <directory>main/java/gui</directory>
 			    <filtering>true</filtering>
 			    <excludes>
 				<exclude>**/*.java</exclude>
