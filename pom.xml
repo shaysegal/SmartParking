@@ -115,7 +115,7 @@
 					<source>1.8</source>
 					<target>1.8</target>
 					<excludes>
-                            			<exclude>**/*</exclude>
+                            			<exclude>**/java/gui*</exclude>
 					</excludes>
 				</configuration>
 			</plugin>
