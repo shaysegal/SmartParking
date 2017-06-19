@@ -105,7 +105,6 @@
 	</dependencies>
 
 	<build>
-		<sourceDirectory>src</sourceDirectory>
 		<resources>
 			<resource>
 			    <directory>main/java/gui</directory>
@@ -123,17 +122,6 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-					<excludes>
-						<exclude>gui/app/MyDetailsEdit.java</exclude>
-						<exclude>gui/app/About.java</exclude>
-						<exclude>gui/app/AbstractWindow.java</exclude>
-						<exclude>gui/app/ConfirmBox.java</exclude>
-						<exclude>gui/app/Login.java</exclude>
-						<exclude>gui/app/UtilMethods.java</exclude>
-						<exclude>gui/map/DriverMap.java</exclude>
-						<exclude>gui/map/PmMap.java</exclude>
-						<exclude>gui/app/SaveDetailsButton.java</exclude>
-					</excludes>
 				</configuration>
 			</plugin>
 			<plugin>
