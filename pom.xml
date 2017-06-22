@@ -15,6 +15,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>rest_test.Application</start-class>
 	</properties>
+
 	<repositories>
 		<repository>
 			<id>spring-releases</id>
@@ -97,11 +98,7 @@
 			<artifactId>jfoenix</artifactId>
 			<version>1.0.0</version>
 		</dependency>
-		<dependency>
-		    <groupId>org.wildfly.swarm</groupId>
-		    <artifactId>javafx</artifactId>
-		    <version>2017.1</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -114,9 +111,6 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-					<excludes>
-                            			<exclude>**/gui/*</exclude>
-					</excludes>
 				</configuration>
 			</plugin>
 			<plugin>
